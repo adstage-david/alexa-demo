@@ -1,0 +1,16 @@
+{
+  "name": "adstage",
+  "version": "1.0.0",
+  "description": "Get adstage info",
+  "main": "index.js",
+  "scripts": {
+    "start": "node examples/apps/adstage/index.js"
+  },
+  "author": "david haslem",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.2",
+    "lodash": "^4.3.0",
+    "request-promise": "^2.0.0"
+  }
+}
