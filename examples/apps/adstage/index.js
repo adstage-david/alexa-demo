@@ -10,7 +10,7 @@ var AdstageHelper = require('./adstage_helper');
 var app = new Alexa.app('adstage');
 
 app.launch(function(req, res) {
-  var prompt = 'You can request for an overview by network or ask to link to adstage';
+  var prompt = 'You can request for an overview by network or ask to link to ad-stage';
   res.say(prompt).reprompt(prompt).shouldEndSession(false);
 });
 
@@ -40,7 +40,7 @@ app.intent('Overview', {
       res.say(response).card({"type": "Standard", "title": "Adstage Overview", "text": response}).send();
     }).catch(function(err) {
       console.log(err);
-      var prompt = 'There was a problem getting data from adstage.';
+      var prompt = 'There was a problem getting data from ad-stage.';
       res.say(prompt).shouldEndSession(true).send();
     });
     return false;

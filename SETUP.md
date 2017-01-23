@@ -40,9 +40,9 @@ So what we need to do here is make Alexa aware of your app, and make it accessib
 
 *   #### 3\. Configuration
 
-    Under Endpoint, select 'HTTPS' and add your project's publish URL with '/airportinfo' appended to it. This is the URL you get when clicking 'Show', and it'll have the format 'https://feather-bead.gomix.me'. So for our example app, it's 'https://feather-bead.gomix.me/adstage'. Select 'yes' for account linking.
+    Under Endpoint, select 'HTTPS' and add your project's publish URL with '/adstage' appended to it. This is the URL you get when clicking 'Show', and it'll have the format 'https://feather-bead.gomix.me'. So for our example app, it's 'https://feather-bead.gomix.me/adstage'. Select 'yes' for account linking.
     
-    Set up like this - you'll need the client secret and you'll need to update the redirect urls (add more on new lines) of the oauth app here: [https://platform.adstage.io/oauth/applications/56](https://platform.adstage.io/oauth/applications/56)
+    Set up like this - you'll need the client secret and client id from AdStage, and will need an AdStage admin to set up the redirect url for you to your Alexa skill.
     
     ![](https://cdn.gomix.com/7899b32b-bba0-4671-a553-82f25f4136a2%2FScreen%20Shot%202016-12-11%20at%204.28.30%20PM.png)
     
